@@ -17,7 +17,7 @@ while true do
 monitor.clear()
 monitor.setCursorPos(1,1)
  
-atable = peripheral.call(monitor_location, "getTankInfo")
+atable = peripheral.call(thermal_exp_locale, "getTankInfo")
  
 a = atable[1].capacity
 b = atable[1].contents
