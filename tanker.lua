@@ -17,7 +17,7 @@ while true do
 monitor.clear()
 monitor.setCursorPos(1,1)
  
-atable = peripheral.call("left", "getTankInfo")
+atable = peripheral.call(monitor_location, "getTankInfo")
  
 a = atable[1].capacity
 b = atable[1].contents
